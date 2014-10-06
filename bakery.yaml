@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [Lusitana-Regular.ttf.ttx, Lusitana-Bold.ttf.ttx, src/Lusitana-Regular.otf.ttx,
+  src/Lusitana-Bold.otf.ttx, src/Lusitana-Regular-TTF.sfd, src/Lusitana-Bold-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
